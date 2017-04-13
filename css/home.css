@@ -1,73 +1,66 @@
-#navbar
-{
-background-color: white;
-	width: 100%;
-
+#navbar {
+    background-color: white;
+    width: 100%;
 }
 
-.logo{
-	display: inline-block;
-	margin: auto;
+.logo {
+    display: inline-block;
+    margin: auto;
 }
 
-#logo{
-	margin: auto;
-	width: 75%;
-
-	text-align: center;
+#logo {
+    margin: auto;
+    width: 75%;
+    text-align: center;
 }
 
-#container{
-	margin: auto;
-	width: 75%;
-background-color: rgba(255,255,255,0.85);
-min-height: 75%;
+#container {
+    margin: auto;
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.85);
+    min-height: 75%;
 }
 
-#header{
-	
-	margin: 0%;
-	width: 100%;
+#header {
+    margin: 0%;
+    width: 100%;
 }
 
-body{
-	margin: auto;
-background-color: #ff9900;
-	
+body {
+    margin: auto;
+    background-color: #ff9900;
 }
 
-#tabs{
-		text-align: center;
-	width: 75%;
-	margin: auto;
-
+#tabs {
+    text-align: center;
+    width: 75%;
+    margin: auto;
 }
 
-.tabs{
-	margin: 5%;
+.tabs {
+    margin: 5%;
 }
 
-.tabs:hover{
-	background-color: blue;
+.tabs:hover {
+    background-color: blue;
 }
-
 
 
 /*set navbar size and center*/
+
 .navbar {
-	margin: auto;
-	width:75%;
-
-
-	    /* 
+    margin: auto;
+    width: 75%;
+    /*
 		position: absolute;
-        bottom: -10px; 
-        right: 10px; 
-		*/  
-		
+        bottom: -10px;
+        right: 10px;
+		*/
 }
 
+
 /*style for nav buttons*/
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -76,42 +69,45 @@ ul {
     background-color: #333;
 }
 
-
 .homebutton, .ratesPolociesbutton, .computersecurityButton {
-	float: left;
-	width:33.33333%
+    float: left;
+    width: 33.33333%
 }
 
+
 /*style for nav buttons*/
+
 li {
     float: left;
-	width: 100%;
+    width: 100%;
 }
 
-/*style for nav buttons*/
-li a{
-	display: inline-block;
-	background-color: rgb(240,240,240);
-	color: black;
-	text-align: center;
-	padding: 14px 0px;
-	text-decoration: none;
-	/* transition: 0.3s; */
-	/* font-size: 1.67vw; */
-	font-size: 17px;
-	width: 100%;
 
+/*style for nav buttons*/
+
+li a {
+    display: inline-block;
+    background-color: rgb(240, 240, 240);
+    color: black;
+    text-align: center;
+    padding: 14px 0px;
+    text-decoration: none;
+    /* transition: 0.3s; */
+    /* font-size: 1.67vw; */
+    font-size: 17px;
+    width: 100%;
 }
 
+
 /*style for nav buttons*/
+
 li a:hover {
-	background-color: rgb(210,210,210);
+    background-color: rgb(210, 210, 210);
 }
 
-body{
-		font-family: Rockwell;
+body {
+    font-family: Rockwell;
 }
-
 
 .titleHeader {
     padding: 14px 0px;
