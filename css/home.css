@@ -1,8 +1,8 @@
 #logocontainer {
     background-color: white;
     width: 100%;
-    min-height: 12.5%;
-    height: 100px;
+    /*min-height: 12.5%;*/
+    height: 12.5%;
 }
 
 #logoimg {
@@ -51,8 +51,20 @@ body {
 /*set navbar size and center*/
 
 #navbar {
+
     width: 75%;
-    margin: auto;
+    position: absolute;
+    top: 12.5%;
+    right: 12.5%;
+
+    /*width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    margin-bottom: -28px;*/
+
+
+    /*bottom: 0;*/
 
 
     /*position: absolute;
@@ -69,10 +81,10 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    /*background-color: #333;*/
 }
 
-.homebutton, .ratesPolociesbutton, .computersecurityButton {
+.button {
     float: left;
     width: 33.33333%;
 }
@@ -93,7 +105,7 @@ li a {
     background-color: rgb(240, 240, 240);
     color: black;
     text-align: center;
-    padding: 14px 0px;
+    padding: 0.73vw 0px;
     text-decoration: none;
     /* transition: 0.3s; */
     /* font-size: 1.67vw; */
@@ -136,4 +148,5 @@ body {
 #timetable {
     text-align: left;
     width: 100%;
+    font-size: 1.15vw;
 }

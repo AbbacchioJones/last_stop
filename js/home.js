@@ -30,3 +30,25 @@ function loadScript() {
     script.src = 'http://maps.googleapis.com/maps/api/js?sensor=false&callback=init';
     document.body.appendChild(script); // Add element to page
 }
+
+
+
+/*
+function if invoked whenever to window is resized
+*/
+
+window.onresize = align;
+
+function align() {
+
+  var logoheight = document.getElementById("logocontainer").style.clientwidth;
+  var navbarheight = document.getElementById("navbar").style.clientwidth;
+
+  document.getElementById("navbar").style.top = (logoheight + (navbarheight / 2)) + 'px'
+
+}
+
+var handler = window.onresize;
+//handler();
+//or
+handler.apply(window, [' On']);
