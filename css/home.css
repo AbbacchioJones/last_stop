@@ -1,11 +1,11 @@
-#navbar {
+#logocontainer {
     background-color: white;
     width: 100%;
     min-height: 12.5%;
     height: 100px;
 }
 
-.logo {
+#logoimg {
     display: inline-block;
     margin: auto;
 }
@@ -50,9 +50,9 @@ body {
 
 /*set navbar size and center*/
 
-.navbar {
+#navbar {
     width: 75%;
-margin: auto;
+    margin: auto;
 
 
     /*position: absolute;
@@ -97,7 +97,7 @@ li a {
     text-decoration: none;
     /* transition: 0.3s; */
     /* font-size: 1.67vw; */
-    font-size: 17px;
+    font-size: 1.57vw;
     width: 100%;
 }
 
