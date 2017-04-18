@@ -33,19 +33,30 @@ function loadScript() {
 
 
 
-/*
-function if invoked whenever to window is resized
-*/
 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+/*
+function if invoked on load and whenever the window is resized
+*/
+window.onload = align;
 window.onresize = align;
 
 function align() {
 
-  var logoheight = document.getElementById("logocontainer").style.clientwidth;
-  var navbarheight = document.getElementById("navbar").style.clientwidth;
 
-  document.getElementById("navbar").style.top = (logoheight + (navbarheight / 2)) + 'px'
+//calculates height percentage of logo and navbar and adds them together to set the logocontainer height
+  var logoheight = 100 / (window.innerHeight / document.getElementById('logoimg').clientHeight);
+  var buttonheight = 100 / (window.innerHeight / document.getElementById('navbar').clientHeight);
+  document.getElementById('logocontainer').style.height = (logoheight + buttonheight)+ '%';
 
+//finds height of logocontainer and navbar and makes half the navbar extend beyond the logocontainer
+  var containerheight = document.getElementById('logocontainer').clientHeight;
+  var navbarheight = document.getElementById('navbar').clientHeight;
+  document.getElementById('navbar').style.top = (containerheight - (navbarheight / 2)) + 'px';
 }
 
 var handler = window.onresize;
