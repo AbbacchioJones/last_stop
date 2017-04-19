@@ -1,3 +1,5 @@
+// map functions
+
 /*
 function  is invoked every time the tab button presented to the user as "Location" is clicked.
 function contains the information the generate and center a google map at the location of
@@ -35,7 +37,7 @@ function loadScript() {
 
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
+// alignment functions
 
 
 

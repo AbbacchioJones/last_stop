@@ -27,6 +27,7 @@
     width: 75%;
     background-color: rgba(255, 255, 255, 0.85);
     min-height: 75%;
+    border-radius: 10px
 }
 
 #header {
@@ -110,6 +111,19 @@ body {
     /* font-size: 1.67vw; */
     font-size: 1.57vw;
     width: 100%;
+
+}
+
+#homeButton a{
+  border-radius: 10px 0px 0px 10px;
+}
+
+#ratesButton a{
+  border-radius: 0px 0px 0px 0px;
+}
+
+#securityButton a{
+  border-radius: 0px 10px 10px 0px;
 }
 
 
