@@ -75,7 +75,7 @@ body {
 
 /*style for nav buttons*/
 
-ul {
+.ulnavbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -91,7 +91,7 @@ ul {
 
 /*style for nav buttons*/
 
-li {
+.linavbar {
   float: left;
   width: 100%;
 }
@@ -99,7 +99,7 @@ li {
 
 /*style for nav buttons*/
 
-li a {
+.linavbar a {
   display: inline-block;
   background-color: rgb(230, 230, 230);
   color: black;
@@ -115,7 +115,7 @@ li a {
 
 /*style for nav buttons*/
 
-li a:hover {
+.linavbar a:hover {
   background-color: rgb(210, 210, 210);
 }
 
@@ -124,13 +124,14 @@ body {
 }
 
 .titleHeader {
-  padding: 14px 0px;
+  margin-top: 3%;
+  padding: 14px 0px 0px 0px;
   margin-left: 3%;
   font-size: 3.7vw;
 }
 
 .bodyContent {
-  display: inline-block;
+  /*display: inline-block;*/
   text-align: left;
   font-size: 2vw;
   margin-left: 10%;
