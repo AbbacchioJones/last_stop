@@ -134,7 +134,9 @@ body {
 }
 
 body {
-    font-family: verdana;
+    /*font-family: 'Oswald', sans-serif;
+    font-weight: lighter;*/
+    font-family: 'Open Sans', sans-serif;
 }
 
 .titleHeader {
@@ -178,5 +180,6 @@ th {
     font-size: 2vw;
     font-family: inherit;
     font-weight: normal;
+    /*font-weight: lighter;*/
     vertical-align: top;
 }
