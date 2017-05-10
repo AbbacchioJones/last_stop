@@ -1,8 +1,10 @@
+/*Deleloped by Dillon Hubble, Ricky Le and Thejai Reim   2017*/
+
+/*logo styling*/
+
 #logocontainer {
   background-color: white;
   width: 100%;
-  /*min-height: 12.5%;*/
-  /*height: 12.5%;*/
   height: 15%;
 }
 
@@ -12,7 +14,6 @@
   margin-right: auto;
   margin-top: auto;
   margin-bottom: auto;
-  /*width: 20.83vw;*/
   width: 30%;
 }
 
@@ -22,6 +23,8 @@
   text-align: center;
 }
 
+/*Content container styling*/
+
 #container {
   margin: auto;
   width: 75%;
@@ -30,30 +33,20 @@
   border-radius: 10px
 }
 
+/*header syling*/
+
 #header {
   margin: 0%;
   width: 100%;
 }
 
+/*style for body*/
+
 body {
   margin: auto;
   background-color: #ff9900;
+  font-family: 'Open Sans', sans-serif;
 }
-
-#tabs {
-  text-align: center;
-  width: 75%;
-  margin: auto;
-}
-
-.tabs {
-  margin: 5%;
-}
-
-.tabs:hover {
-  background-color: blue;
-}
-
 
 /*set navbar size and center*/
 
@@ -61,16 +54,6 @@ body {
   width: 75%;
   position: absolute;
   right: 12.5%;
-  /*width: 75%;
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
-    margin-bottom: -28px;*/
-  /*bottom: 0;*/
-  /*position: absolute;
-    right: 12.5%;
-    margin: auto;
-    top: 10%;*/
 }
 
 
@@ -81,13 +64,11 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  /*background-color: #333;*/
 }
 
 .button {
   float: left;
-  /*width: 33.33333%;*/
-  width: 25%;
+  width: 20%;
 }
 
 
@@ -108,21 +89,21 @@ body {
   text-align: center;
   padding: 0.73vw 0px;
   text-decoration: none;
-  /* transition: 0.3s; */
-  /* font-size: 1.67vw; */
   font-size: 1.57vw;
   width: 100%;
 }
+
+/*Border radius for navbar*/
 
 #homeButton a {
   border-radius: 10px 0px 0px 10px;
 }
 
-#ratesButton a {
+#ratesButton a, #locaton&hours, #securityButton a {
   border-radius: 0px 0px 0px 0px;
 }
 
-#securityButton a {
+#supportButton a {
   border-radius: 0px 10px 10px 0px;
 }
 
@@ -133,11 +114,7 @@ body {
   background-color: rgb(210, 210, 210);
 }
 
-body {
-  /*font-family: 'Oswald', sans-serif;
-    font-weight: lighter;*/
-  font-family: 'Open Sans', sans-serif;
-}
+/*header style*/
 
 .titleHeader {
   margin-top: 3%;
@@ -146,8 +123,9 @@ body {
   font-size: 3.7vw;
 }
 
+/*normal text style*/
+
 .bodyContent {
-  /*display: inline-block;*/
   text-align: left;
   font-size: 2vw;
   margin-left: 10%;
@@ -156,16 +134,22 @@ body {
   width: 80%;
 }
 
+/*indent normal text*/
+
 .indentBodyContent {
   margin-left: 10%;
 }
+
+/*Map styling*/
 
 #map {
   width: 100%;
   height: 50%;
 }
 
-#timetable {
+/*style for tables*/
+
+#table {
   text-align: left;
   width: 100%;
   font-size: 1.15vw;
@@ -184,10 +168,7 @@ th {
   vertical-align: top;
 }
 
-#watermark {
-  font-size: 0.73vw;
-  text-align: right;
-}
+/*style for image on homepage*/
 
 #homeimg {
   width: 75%;
@@ -196,6 +177,8 @@ th {
   border-radius: 10px;
   margin-top: 3%;
 }
+
+/*styling for owner photo*/
 
 #ownerimgcontainer {
   float: left;
@@ -208,4 +191,45 @@ th {
 #ownerimg {
   width: 100%;
   border-radius: 10px;
+}
+
+#downloadButton {
+    background-color: #ff9900; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    border-radius: 10px;
+}
+
+#drivesavers {
+  text-align: center;
+}
+
+#socialmediacontainer {
+  margin-left: 12.5%;
+  position: absolute;
+  width: 75%;
+}
+
+#socialmedia {
+  margin-right: 1%;
+  float: left;
+  display: inline-block;
+  width: 3vw;
+  text-align: center;
+}
+
+/*style for watermark*/
+
+#watermark {
+  font-size: 0.73vw;
+  /*text-align: right;*/
+  right: 12.5%;
+  display: inline-block;
+  float: right;
+  position: absolute;
 }

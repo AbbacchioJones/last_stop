@@ -10,7 +10,9 @@
     </title>
   </head>
 
+<!-- header used to hold logo and navbar -->
   <header id="header">
+    <!-- container for logo -->
     <div id="logocontainer">
       <div id="logo">
         <a href="home.html">
@@ -45,6 +47,12 @@
               <a href="computersecuritytips.html">Computer Security</a>
             </li>
           </div>
+          <!---div for button 4 (helped with css formatting to include div here)--->
+          <div class="button">
+            <li class="linavbar" id="supportButton">
+              <a href="support.html">Support</a>
+            </li>
+          </div>
         </ul>
       </div>
     </div>
@@ -53,11 +61,14 @@
   </header>
 
   <body>
+    <!-- container for content -->
     <div id="container">
+      <!-- title header -->
       <div class="titleHeader">Contact & Location</div>
+      <!-- actual text content for Contact & Location -->
       <div class="bodyContent">
-
-        <table id="timetable">
+        <!-- table for contact information -->
+        <table id="table">
           <tr>
             <th>E-mail</th>
             <th>laststop@laststop.net</th>
@@ -72,15 +83,20 @@
           </tr>
         </table>
         </br>
+        <!-- script to inser google maps -->
         <script>
           loadScript();
         </script>
         <div id="map"> [google map]</div>
-        <br>
+        </br>
       </div>
+
+      <!-- title header -->
       <div class="titleHeader">Hours of Operation</div>
+      <!-- actual text content for Hours of Operation -->
       <div class="bodyContent">
-        <table id="timetable">
+        <!-- table for hours of operation -->
+        <table id="table">
           <tr>
             <th>Monday - Friday</th>
             <th>10:00 am - 6:00 pm</th>
@@ -94,8 +110,19 @@
             <th>Closed</th>
           </tr>
         </table>
-        <br>
+        </br>
       </div>
     </div>
+    <!-- links to social media pages -->
+    <div id="socialmediacontainer">
+      <a href= "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=0ahUKEwj7gtCXseTTAhVCxmMKHfCtCeoQFgg-MAM&url=https%3A%2F%2Fwww.facebook.com%2Fpages%2FLast-Stop-Computers%2F276941659096882&usg=AFQjCNGe_2xwC-esYK3iGTxxfiKeIf3hdQ&sig2=0i9MiBahyMiBjsu6o3t57g" target="_blank"><img src= "../img/facebookblack.png" id= "socialmedia"/></a>
+      <a href= "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&cad=rja&uact=8&ved=0ahUKEwi8zsHO7OTTAhVE8mMKHRBoDxoQFgg3MAI&url=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Flast-stop-computer-tacoma&usg=AFQjCNGhfqvYfMqaC5I4mGhHZy1LySlELw&sig2=yxur7HbdM6iFDCaTLshGzg" target="_blank"><img src= "../img/yelpicon.png" id= "socialmedia"/></a>
+    </div>
+    <!-- watermark for page developers -->
+    <div id="watermark">
+      Developed by Ricky Le, Dillon Hubble and Thejai Reim
+    </div>
+  </br>
+  </br>
+  </br>
   </body>
-  <br>
